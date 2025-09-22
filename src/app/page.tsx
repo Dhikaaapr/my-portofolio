@@ -11,15 +11,15 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <main className="flex flex-col items-center w-full min-h-screen bg-[#0b0f0e] text-white relative bg-grid">
-      {/* Glow Effects */}
+      {}
       <div className="absolute top-20 left-40 w-72 h-72 bg-green-500 rounded-full mix-blend-screen filter blur-3xl opacity-30"></div>
       <div className="absolute bottom-20 right-40 w-96 h-96 bg-teal-400 rounded-full mix-blend-screen filter blur-3xl opacity-20"></div>
       <div className="absolute top-1/2 left-1/3 w-80 h-80 bg-emerald-600 rounded-full mix-blend-screen filter blur-3xl opacity-10"></div>
 
-      {/* Navbar */}
+      {}
       <Navbar />
 
-      {/* Hero Section */}
+      {}
       <motion.section
         id="home"
         className="flex flex-col items-center justify-center text-center h-screen px-6 relative z-10"
@@ -27,7 +27,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        {/* Foto Profil */}
+        {}
         <div className="w-40 h-40 relative rounded-full overflow-hidden border-4 border-green-600">
           <Image
             src="/foto-andhika-porto.jpg"
@@ -84,7 +84,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* About */}
+      {}
       <motion.section
         id="about"
         className="container mx-auto px-6 py-20 text-center relative z-10"
@@ -106,7 +106,7 @@ export default function Home() {
         </p>
       </motion.section>
 
-      {/* Skills */}
+      {}
       <motion.div
         id="skills"
         initial={{ opacity: 0, scale: 0.9 }}
@@ -118,7 +118,7 @@ export default function Home() {
         <Skills />
       </motion.div>
 
-      {/* Project */}
+      {}
       <motion.section
         id="project"
         initial={{ opacity: 0, y: 50 }}
@@ -129,7 +129,7 @@ export default function Home() {
         <Project />
       </motion.section>
 
-      {/* Experience */}
+      {}
       <motion.section
         id="experience"
         className="container mx-auto px-6 py-20 relative z-10"
@@ -187,7 +187,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-      {/* Education */}
+      {}
       <motion.div
         id="education"
         initial={{ opacity: 0, y: 60 }}
@@ -199,7 +199,7 @@ export default function Home() {
         <Education />
       </motion.div>
 
-      {/* Contact */}
+      {}
       <motion.div
         id="contact"
         initial={{ opacity: 0, y: 60 }}
@@ -211,7 +211,7 @@ export default function Home() {
         <Contact />
       </motion.div>
 
-      {/* Footer */}
+      {}
       <footer className="w-full bg-black/50 text-center py-6 mt-10 relative z-10">
         <p className="text-gray-500">
           © 2025 Andhika Presha Saputra. All rights reserved.

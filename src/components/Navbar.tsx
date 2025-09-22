@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center px-6">
         <div className="font-bold text-xl">⚡ Portfolio</div>
 
-        {/* Desktop Menu */}
+        {}
         <ul className="hidden md:flex gap-6">
           {[
             "home",
@@ -32,7 +32,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Mobile Menu Button */}
+        {}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden px-3 py-2 border border-gray-500 rounded-lg text-white"
@@ -41,7 +41,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu with AnimatePresence */}
+      {}
       <AnimatePresence>
         {isOpen && (
           <motion.div

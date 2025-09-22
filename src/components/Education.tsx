@@ -3,7 +3,7 @@ export default function Education() {
     <section id="education" className="container mx-auto px-6 py-20">
       <h2 className="text-3xl font-bold mb-8 text-center">Education</h2>
 
-      {/* Top Section */}
+      {}
       <div className="bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-xl p-6 md:p-8 flex flex-col md:flex-row justify-between items-start md:items-center shadow-lg">
         <div>
           <div className="mb-2">
@@ -29,9 +29,9 @@ export default function Education() {
         </div>
       </div>
 
-      {/* Content Section */}
+      {}
       <div className="mt-10 grid md:grid-cols-2 gap-6">
-        {/* Overview */}
+        {}
         <div className="bg-black p-6 rounded-lg shadow">
           <h4 className="text-lg font-semibold mb-2">📖 Overview</h4>
           <p className="text-gray-1000 text-sm leading-relaxed">
@@ -44,7 +44,7 @@ export default function Education() {
           </p>
         </div>
 
-        {/* Key Achievements */}
+        {}
         <div className="bg- black-50 p-6 rounded-lg shadow">
           <h4 className="text-lg font-semibold mb-4">🏆 Key Achievements</h4>
 

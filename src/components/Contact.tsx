@@ -58,7 +58,7 @@ export default function Contact() {
       <h2 className="text-3xl font-bold text-center mb-12">Get In Touch</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-        {/* Left - Contact Info */}
+        {}
         <div>
           <h3 className="text-xl font-semibold mb-4">Let&apos;s Connect</h3>
           <p className="text-gray-600 mb-6">
@@ -68,7 +68,7 @@ export default function Contact() {
           </p>
 
           <div className="space-y-6">
-            {/* Email */}
+            {}
             <div className="flex items-start gap-4">
               <div className="bg-gray-100 p-3 rounded-md">
                 <FaEnvelope className="text-xl text-gray-700" />
@@ -79,7 +79,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* WhatsApp */}
+            {}
             <div className="flex items-start gap-4">
               <div className="bg-gray-100 p-3 rounded-md">
                 <FaPhone className="text-xl text-gray-700" />
@@ -90,7 +90,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Location */}
+            {}
             <div className="flex items-start gap-4">
               <div className="bg-gray-100 p-3 rounded-md">
                 <FaMapMarkerAlt className="text-xl text-gray-700" />
@@ -105,7 +105,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Right - Contact Form */}
+        {}
         <div className="bg-black p-6 md:p-8 rounded-xl shadow-md">
           <h4 className="font-semibold mb-4 text-white">Send Message</h4>
           <form onSubmit={handleSubmit} className="space-y-4">

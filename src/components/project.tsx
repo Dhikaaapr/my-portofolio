@@ -109,7 +109,7 @@ export default function Project() {
         ))}
       </div>
 
-      {/* Modal */}
+      {}
       {selectedProject && (
         <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
           <div className="bg-gray-900 p-6 rounded-xl max-w-4xl w-full relative overflow-y-auto max-h-[90vh]">
