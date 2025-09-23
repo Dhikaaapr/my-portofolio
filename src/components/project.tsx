@@ -21,8 +21,24 @@ export default function Project() {
       tech: "Next.js, Tailwind CSS",
       images: [
         {
-          src: "/web_portofolio.png",
-          desc: "Halaman utama portofolio yang menampilkan informasi pribadi, skill, dan sosial media.",
+          src: "/login_bibliotech.png",
+          desc: "Tampilan ini merupakan halaman pertama yang muncul saat pengguna mengakses website perpustakaan. Pada halaman login, pengguna diminta untuk memasukkan kredensial berupa email dan kata sandi yang telah terdaftar sebelumnya.",
+        },
+        {
+          src: "/beranda_bibli.png",
+          desc: "Setelah berhasil login, pengguna diarahkan ke halaman beranda atau home page. Di halaman ini ditampilkan rangkuman fitur utama seperti navigasi genre, daftar buku populer, rekomendasi, dan akses ke filter genre. Beranda berperan sebagai pusat kontrol bagi pengguna untuk mulai menjelajahi koleksi buku yang tersedia.",
+        },
+        {
+          src: "/rating_buku.png",
+          desc: "Pada bagian ini ditampilkan dua kategori buku utama, yaitu buku trending dan buku rekomendasi. Buku trending dipilih berdasarkan popularitas atau tingkat interaksi pengguna lain, sedangkan buku rekomendasi disusun oleh sistem berdasarkan kriteria tertentu atau preferensi pengguna yang tersimpan.",
+        },
+        {
+          src: "/kriteria_buku.png",
+          desc: "Pada bagian ini ditampilkan dua kategori buku utama, yaitu buku trending dan buku rekomendasi. Buku trending dipilih berdasarkan popularitas atau tingkat interaksi pengguna lain, sedangkan buku rekomendasi disusun oleh sistem berdasarkan kriteria tertentu atau preferensi pengguna yang tersimpan.",
+        },
+        {
+          src: "/metode_saw.png",
+          desc: "Pada bagian ini ditampilkan dua kategori buku utama, yaitu buku trending dan buku rekomendasi. Buku trending dipilih berdasarkan popularitas atau tingkat interaksi pengguna lain, sedangkan buku rekomendasi disusun oleh sistem berdasarkan kriteria tertentu atau preferensi pengguna yang tersimpan.",
         },
       ],
     },
@@ -55,14 +71,13 @@ export default function Project() {
       ],
     },
     {
-      title: "Blog Platform",
-      description:
-        "Website e-commerce yang menyediakan berbagai produk kesehatan mental, mulai dari buku, alat relaksasi, hingga layanan konsultasi online.",
+      title: "On Going",
+      description: "----.",
       tech: "Node.js, MongoDB, Tailwind CSS",
       images: [
         {
-          src: "/web_portofolio.png",
-          desc: "Tampilan halaman utama blog dengan daftar artikel.",
+          src: "/web_portofolio",
+          desc: "On Going",
         },
       ],
     },
