@@ -135,7 +135,7 @@ export default function Contact() {
               placeholder="Subject"
               value={formData.subject}
               onChange={handleChange}
-              className="border rounded-md px-4 py-2 w-full"
+              className="border rounded-md px-4 py-2 w-full relative z-50"
               required
             />
             <textarea
@@ -144,13 +144,13 @@ export default function Contact() {
               placeholder="Your Message"
               value={formData.message}
               onChange={handleChange}
-              className="border rounded-md px-4 py-2 w-full resize-none"
+              className="border rounded-md px-4 py-2 w-full resize-none relative z-50"
               required
             ></textarea>
             <button
               type="submit"
               disabled={loading}
-              className="flex items-center justify-center gap-2 bg-green-400 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition disabled:opacity-50"
+              className="flex items-center justify-center gap-2 bg-green-400 text-white px-6 py-3 rounded-md hover:bg-gray-800 transition disabled:opacity-50 relative z-50"
             >
               <FaPaperPlane />
               {loading ? "Sending..." : "Send Message"}
