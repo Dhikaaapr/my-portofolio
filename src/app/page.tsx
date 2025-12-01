@@ -10,11 +10,13 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center w-full min-h-screen bg-[#0b0f0e] text-white relative bg-grid">
+    <main className="flex flex-col items-center w-full min-h-screen bg-[#0b0f0e] text-white relative bg-grid overflow-x-hidden">
       {}
-      <div className="absolute top-20 left-40 w-72 h-72 bg-green-500 rounded-full mix-blend-screen filter blur-3xl opacity-30"></div>
-      <div className="absolute bottom-20 right-40 w-96 h-96 bg-teal-400 rounded-full mix-blend-screen filter blur-3xl opacity-20"></div>
-      <div className="absolute top-1/2 left-1/3 w-80 h-80 bg-emerald-600 rounded-full mix-blend-screen filter blur-3xl opacity-10"></div>
+      <div className="absolute top-10 left-1/2 -translate-x-1/2 w-48 h-48 md:w-72 md:h-72 bg-green-500 rounded-full mix-blend-screen filter blur-3xl opacity-30"></div>
+
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-60 h-60 md:w-96 md:h-96 bg-teal-400 rounded-full mix-blend-screen filter blur-3xl opacity-20"></div>
+
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 w-56 h-56 md:w-80 md:h-80 bg-emerald-600 rounded-full mix-blend-screen filter blur-3xl opacity-10"></div>
 
       {}
       <Navbar />
